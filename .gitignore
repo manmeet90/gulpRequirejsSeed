@@ -1,0 +1,81 @@
+# OS generated files #
+######################
+.DS_Store?
+.DS_Store
+ehthumbs.db
+#Icon?
+Thumbs.db
+*.stackdump
+*~
+
+
+#Project Specific Files#
+########################
+deploy/
+node_modules/
+platforms/
+www/
+.idea/
+notes.txt
+README.md
+
+
+# iOS Specific files #
+######################
+
+.DS_Store
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+*.xcworkspace
+!default.xcworkspace
+xcuserdata
+profile
+*.moved-aside
+DerivedData
+.idea/
+# Pods - for those of you who use CocoaPods
+Pods
+#ios/Illuminks/html/web/index.html
+
+
+# Android Specific files
+
+*.apk
+*.ap_
+
+# files for the dex VM
+*.dex
+
+
+# Java class files
+*.class
+
+# generated files
+bin/
+gen/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Windows thumbnail db
+Thumbs.db
+
+# OSX files
+.DS_Store
+
+# Eclipse project files
+.classpath
+.project
+
+# Android Studio
+.idea
+.gradle
+*.iml
+

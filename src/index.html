@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Gulp build test</title>
+        <!-- build:remove -->
+        <link rel="stylesheet" href="assets/css/bootstrap.css">
+        <!-- /build -->
+        <!-- build:css assets/css/styles.min.css -->
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <!-- /build -->
+    </head>
+    <body>
+        <div id="content">loading..</div>
+        
+        <!-- build:replace '<script>var require={deps:["./assets/js/app.min.js"]};</script>' -->    
+        <script>
+            var require={
+                deps:["./assets/js/main.js"]  
+            };
+        </script>
+        <!-- /build -->
+        <!-- build:remove -->
+        <script src="assets/js-preserve/jquery/jquery-2.1.4.min.js"></script>
+        <script src="assets/js-preserve/bootstrap/bootstrap.min.js"></script>
+         <!-- /build -->
+         <!-- build:js assets/js/lib.min.js -->
+        <script src="assets/js-preserve/require/require.min.js"></script>
+         <!-- /build -->
+    </body>
+</html>

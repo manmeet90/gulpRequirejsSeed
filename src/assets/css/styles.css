@@ -1,0 +1,12 @@
+body {
+  font-size: 1.2em; }
+  body h4 {
+    text-transform: uppercase;
+    border-bottom: 1px solid #ddd; }
+  body td.user_name {
+    color: blue; }
+  body .user-img {
+    background-image: url("../images/user-pic.jpg");
+    display: inline-block;
+    width: 180px;
+    height: 150px; }
